@@ -1,0 +1,105 @@
+.all-characters {
+  width: 100%;
+}
+
+.character-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+}
+
+/* Filtr */
+.filter {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #717679;
+}
+
+.filter h2 {
+  padding: 10px 0;
+  font-size: 30px;
+  color: #641e1e;
+  word-spacing: 10px;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-btn {
+  margin: 10px 10px 20px 10px;
+  width: 150px;
+  height: 55px;
+  background-color: black;
+  color: #c39a1c;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+/* Barvy tlačítek filtru */
+.filter-btn.fenix-order {
+  background-color: green;
+}
+
+.filter-btn.dark-wizard {
+  background-color: rgb(143, 2, 2);
+}
+
+.filter-btn.dumbledore-army {
+  background-color: rgb(1, 1, 183);
+}
+
+/* Barvy stínů */
+.one-character.fenix-order {
+  box-shadow: 0 0 50px rgb(1, 196, 1);
+}
+
+.one-character.dark-wizard {
+  box-shadow: 0 0 50px rgb(254, 16, 16);
+}
+
+.one-character.dumbledore-army {
+  box-shadow: 0 0 50px blue;
+}
+
+.filter-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Jedna postava */
+.one-character {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #efeee9;
+  color: #3d2f22;
+  border-radius: 20px;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.one-character img {
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.one-character a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid #3d2f22;
+  border-radius: 10px;
+  color: #3d2f22;
+  background-color: #bbbec0;
+}

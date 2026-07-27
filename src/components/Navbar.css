@@ -1,0 +1,22 @@
+nav {
+  text-align: center;
+  height: 60px;
+}
+
+nav a {
+  display: inline-block;
+  width: 150px;
+  margin: 0 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #3d2f22;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  border: 2px solid #efeee9;
+  background-color: #efeee9;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
